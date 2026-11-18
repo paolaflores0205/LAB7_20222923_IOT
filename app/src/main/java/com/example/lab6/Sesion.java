@@ -9,6 +9,10 @@ public class Sesion {
     private Double horasDedicadas;
     private String tipoActividad;
 
+    private String urlPhoto;
+
+
+
     public Sesion() {
     }
 
@@ -50,5 +54,13 @@ public class Sesion {
 
     public void setTipoActividad(String tipoActividad) {
         this.tipoActividad = tipoActividad;
+    }
+
+    public String getUrlPhoto() {
+        return urlPhoto;
+    }
+
+    public void setUrlPhoto(String urlPhoto) {
+        this.urlPhoto = urlPhoto;
     }
 }
